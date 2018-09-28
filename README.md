@@ -1,6 +1,6 @@
 # Field System
 
-Field System is a nerves QtWebEngine Kiosk system for Field hardware. It was forked from [LeToteTeam/kiosk_system_rpi3](https://github.com/LeToteTeam/kiosk_system_rpi3) following the [Nerves guid](https://hexdocs.pm/nerves/systems.html#customizing-your-own-nerves-system).
+Field System is a nerves QtWebEngine Kiosk system for Field hardware. It was forked from [LeToteTeam/kiosk_system_rpi3](https://github.com/LeToteTeam/kiosk_system_rpi3) following [the Nerves guide](https://hexdocs.pm/nerves/systems.html#customizing-your-own-nerves-system).
 
 ---
 
