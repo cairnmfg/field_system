@@ -1,7 +1,7 @@
-defmodule KioskSystemRpi3.MixProject do
+defmodule FieldSystem.MixProject do
   use Mix.Project
 
-  @app :kiosk_system_rpi3
+  @app :field_system
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -44,7 +44,7 @@ defmodule KioskSystemRpi3.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "letoteteam/#{@app}"}
+        {:github_releases, "cairnmfg/#{@app}"}
       ],
       build_runner: @build_runner,
       build_runner_opts: [make_args: ["PARALLEL_JOBS=8"]],
@@ -74,10 +74,10 @@ defmodule KioskSystemRpi3.MixProject do
 
   defp package do
     [
-      maintainers: ["Justin Schneck"],
+      maintainers: ["Dylan Fareed"],
       files: package_files(),
       licenses: ["Apache 2.0"],
-      links: %{"Github" => "https://github.com/letoteteam/#{@app}"}
+      links: %{"Github" => "https://github.com/cairnmfg/#{@app}"}
     ]
   end
 
