@@ -59,7 +59,7 @@ config :webengine_kiosk,
   fullscreen: true,
   homepage: "file:///var/www/index.html",
   background_color: "black",
-  blank_image: "/var/www/assets/nerves.png",
+  blank_image: "/var/www/assets/cairn.png",
   progress: true,
   sounds: false
 
