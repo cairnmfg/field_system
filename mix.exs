@@ -1,7 +1,7 @@
-defmodule Fs.MixProject do
+defmodule Fsk.MixProject do
   use Mix.Project
 
-  @app :fs
+  @app :fsk
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
